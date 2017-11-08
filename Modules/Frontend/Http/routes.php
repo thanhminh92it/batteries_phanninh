@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['middleware' => 'web', 'prefix' => 'frontend', 'namespace' => 'Modules\Frontend\Http\Controllers'], function()
+Route::group(['middleware' => 'web', 'namespace' => 'Modules\Frontend\Http\Controllers'], function()
 {
-    Route::get('/', 'FrontendController@index');
+    Route::get('/', 'HomeController@index')->name('home.index');
 });
