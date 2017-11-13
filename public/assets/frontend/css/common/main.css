@@ -17,9 +17,8 @@ body{
     font-weight: 400;
     text-align: left;
 }
-ul li{
+.widget-header ul li{
     display: inline;
-
 }
 .widget-right ul li{
     border-left: 1px solid #000;
@@ -53,10 +52,10 @@ a, a:hover, a:active, a:focus{
 .uppercase {
     text-transform: uppercase;
 }
-.main-header, .nav {
+.main-header, .nav, .widget-footer {
     background: #000;
 }
-.widget-header{
+.widget-header,.widget-footer{
     color: #fff;
 }
 .img_logo {
@@ -77,4 +76,58 @@ a, a:hover, a:active, a:focus{
 .slides {
     width: 100%;
     margin-bottom: 10px;
+}
+.home-content
+{
+    background-color: #e6e6e6;
+    border-radius: 0.25rem;
+    color: #5a6c7f;
+}
+.home-content h3
+{
+    font-weight: bold;
+    color: #000;
+}
+.home-categories
+{
+    margin-top: 15px;
+}
+.home-categories img
+{
+    height: 130px;
+}
+.home-categories h3
+{
+    color: #000;
+}
+.home-categories a
+{
+    height: 230px;
+}
+.widget-footer ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.widget-footer .container
+{
+    padding: 30px 0;
+}
+.widget-footer h4:after{
+    content: '';
+    display: block;
+    position: relative;
+    bottom: 0;
+    width: 26px;
+    height: 3px;
+    top: 5px;
+    background: #ebebeb;
+    margin: 5px 0;
+}
+.widget-footer a{
+    font-size: 14px;
+}
+.widget-footer p,.widget-footer p a {
+    font-size: 11px;
+    color: #868686;
+    margin-top: 0.85rem;
 }

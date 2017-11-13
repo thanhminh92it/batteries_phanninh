@@ -9,7 +9,9 @@
 namespace Modules\Frontend\Http\Controllers;
 
 
+use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Illuminate\Routing\Route;
 
 class HomeController extends Controller
 {

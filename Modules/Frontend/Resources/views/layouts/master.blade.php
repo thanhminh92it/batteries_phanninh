@@ -13,10 +13,9 @@
         <script src="{{asset('js/jquery-3.2.1.js')}}"></script>
     </head>
     <body>
-        <div class="widget-header">
-            @include('frontend::layouts.header')
-        </div>
+        @include('frontend::layouts.header')
         @yield('content')
+        @include('frontend::layouts.footer')
     </body>
     @yield('scripts')
 </html>
